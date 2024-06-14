@@ -1,0 +1,102 @@
+.registerpage-input {
+  margin: 5px;
+}
+
+.registerpage-a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+.registerpage-a:hover {
+  color: #535bf2;
+}
+
+.registerpage-h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.inputLogRes {
+  font-family: Poppins, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 16px 16px 12px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+}
+
+.inputLogRes .registerpage-input {
+  padding: 0.6em 1.2em;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: inherit;
+  transition: 0.3s;
+}
+
+.inputLogRes .registerpage-h1 {
+  font-size: 2em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #1a1a1a;
+  font-style: italic;
+}
+
+.inputLogRes .registerpage-button {
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.inputLogRes .registerpage-button:hover {
+  background-color: #fbc2eb;
+  color: black;
+}
+
+.inputLogRes .registerpage-h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #1a1a1a;
+}
+
+.inputLogRes .registerpage-a {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #1a1a1a;
+}
+
+.inputLogRes .registerpage-a:hover {
+  color: #fbc2eb;
+}
+
+.registerpage-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.registerpage-button:hover {
+  background-color: #fbc2eb;
+  color: black;
+}

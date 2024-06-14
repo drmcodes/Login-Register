@@ -1,0 +1,46 @@
+
+:root {
+  font-family: poppins, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: radial-gradient(circle, #fbc2eb, #a6c1ee);
+  color-scheme: light dark;
+  color: black;
+  background-color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.dashboard-container {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+.dashboard-h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #1a1a1a;
+}
+
+.dashboard-a {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.dashboard-a:hover {
+  color: #535bf2;
+}

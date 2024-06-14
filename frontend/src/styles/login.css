@@ -1,0 +1,71 @@
+.inputLogRes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  min-width: 300px; /* Ajusta el ancho mínimo según tu diseño */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 10 20px rgba(0, 0, 0, 0.1);
+}
+
+.inputLogRes .loginpage-input {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: inherit;
+  transition: 0.3s;
+  width: 75%; /* Opcional: ajusta el ancho de los inputs al 100% */
+}
+
+.inputLogRes .loginpage-h1 {
+  font-size: 2em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #1a1a1a;
+  font-style: italic;
+}
+
+.inputLogRes .loginpage-button {
+  margin-top: 10px; /* Ajusta el margen superior del botón */
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.inputLogRes .loginpage-button:hover {
+  background-color: #fbc2eb;
+  color: #1a1a1a;
+}
+
+.inputLogRes .loginpage-h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #1a1a1a;
+  margin-top: 10px; /* Ajusta el margen superior del título h2 */
+}
+
+.inputLogRes .loginpage-a {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #1a1a1a;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.inputLogRes .loginpage-a:hover {
+  color: #fbc2eb;
+}
