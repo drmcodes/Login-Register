@@ -16,9 +16,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(
-  
-);
+app.use(cors());
 
 // Conectando a la base de datos de MongoDB
 mongoose
@@ -92,7 +90,8 @@ app.post("/api/posts", async (req, res) => {
 app.post("/api/posts", async (req, res) => {
   const token = localStorage.getItem("token");
   decodedTokendata = jwtDecode(token);
-});
+})
+
 
 // Registro de usuario
 
@@ -127,11 +126,7 @@ app.post("/login", async (req, res) => {
       return res.status(401).json({ message: "Invalid credentials " });
     }
 
-    const token = jwt.sign(
-      { id: user._id, username: user.username },
-      jwtSecret,
-      { expiresIn: "1h" }
-    );
+    const token = jwt.sign({ id: user._id, username: user.username }, jwtSecret, { expiresIn: "1h" });
     res.json({ token });
   } catch (err) {
     res.status(500).json({ message: "Error logging in", error: err });
