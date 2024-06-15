@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react"; // Aquí importamos useState
 import { useNavigate } from "react-router-dom"; // Aquí importamos useNavigate para redirigir
-import '../styles/login.css';
+import "../styles/login.css";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -38,23 +38,32 @@ function Login() {
   return (
     <div>
       <div className="inputLogRes">
-      <h1 className="loginpage-h1">Login</h1>
-        <input className="loginpage-input"
+        <h1 className="loginpage-h1">Login</h1>
+        <input
+          className="loginpage-input"
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Email"
         />
-        <input className="loginpage-input"
+        <input
+          className="loginpage-input"
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
         />
-        <button className="loginpage-button" onClick={handleLogin}>Login</button>
-      <div>
-        <h2 className="loginpage-h2">Don't have an account? <a className="loginpage-a" href="http://localhost:5173/Register">Sign in</a></h2> 
-      </div>
+        <button className="loginpage-button" onClick={handleLogin}>
+          Login
+        </button>
+        <div>
+          <h2 className="loginpage-h2">
+            Don't have an account?{" "}
+            <a className="loginpage-a" href="http://localhost:5173/Register">
+              Sign in
+            </a>
+          </h2>
+        </div>
       </div>
     </div>
   );
