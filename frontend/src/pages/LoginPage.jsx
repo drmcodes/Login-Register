@@ -18,8 +18,7 @@ function Login() {
         body: JSON.stringify({ email, password }),
       });
       const data = await res.json();
-      console.log("Login response:", res);
-      console.log("Login data:", data);
+      
       if (res.ok) {
         localStorage.setItem("token", data.token);
         alert("User logged in successfully!🚀");

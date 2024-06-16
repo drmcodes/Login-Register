@@ -65,7 +65,7 @@ export const Home = () => {
       });
 
       const data = await response.json();
-      console.log(data); // Puedes manejar la respuesta como lo necesites
+      
 
       // Actualizar la lista de publicaciones con el nuevo post
       setPosts((prevPosts) => [
