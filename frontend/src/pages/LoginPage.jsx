@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react"; // Aquí importamos useState
 import { useNavigate } from "react-router-dom"; // Aquí importamos useNavigate para redirigir
 import "../styles/login.css";
+import { Link } from "react-router-dom";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -58,8 +59,8 @@ function Login() {
         <div>
           <h2 className="loginpage-h2">
             Don't have an account?{" "}
-            <a className="loginpage-a" href="http://localhost:5173/Register">
-              Sign in
+            <a className="loginpage-a" >
+            <Link className="link" to="/register">Sign in</Link>
             </a>
           </h2>
         </div>

@@ -2,6 +2,7 @@ import "../styles/home.css";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { jwtDecode } from "jwt-decode";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -65,7 +66,6 @@ export const Home = () => {
       });
 
       const data = await response.json();
-      
 
       // Actualizar la lista de publicaciones con el nuevo post
       setPosts((prevPosts) => [
@@ -91,8 +91,8 @@ export const Home = () => {
           <button className="logout-button" onClick={logout}>
             LOG OUT
           </button>
-          <a className="homepage-a" href="/dashboard">
-            ➡️ DASHBOARD ⬅️
+          <a className="homepage-a">
+            <Link className="link" to="/dashboard">➡️ DASHBOARD ⬅️</Link>
           </a>
         </div>
       </nav>

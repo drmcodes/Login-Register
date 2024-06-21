@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/register.css";
+import { Link } from "react-router-dom";
 
 function Register() {
   const [email, setEmail] = useState("");
@@ -63,8 +64,9 @@ function Register() {
         <div>
           <h2 className="registerpage-h2">
             Already have an account?{" "}
-            <a className="registerpage-a" href="http://localhost:5173/Login">
-              Login
+            <a className="registerpage-a">
+            <Link className="link" to="/login">Login</Link>
+           
             </a>
           </h2>
         </div>

@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.link{
+  text-decoration: none;
+  color: black;
+}
+
 
 
 .dashboard-container {
