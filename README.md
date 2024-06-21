@@ -18,5 +18,11 @@ Future features in upcoming versions.
 - **Backend**: Node.js, Express.js, MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
 
-![GIF HD](https://github.com/drmcodes/login-register/assets/143167807/8f60c1de-821a-455c-851a-41f97f3f7253)
-
+## Root directory
+![ROOT-A-GIF_1](https://github.com/drmcodes/login-register/assets/143167807/93d24faa-aa90-4a67-b5dc-6318ab36e190)
+## Register and Login 
+![REGISTER-LOGIN-A-GIF_1](https://github.com/drmcodes/login-register/assets/143167807/d6eb4fb4-441f-4264-b02a-72dc3fb0fd5a)
+## Posting a message
+![POST-MENSAJE-A-GIF](https://github.com/drmcodes/login-register/assets/143167807/fe5e49f6-08bd-4ae7-9ccf-1d14994580db)
+## Dashboard and log out
+![DASHBOARD-Y-LOG-OUT-A-GIF](https://github.com/drmcodes/login-register/assets/143167807/65144abc-2c35-4a5b-91ee-c9dcde6fac9b)
