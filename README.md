@@ -1,4 +1,3 @@
-(NOT DEPLOYED)
 # Social Media Platform
 
 Welcome to my Social Media Platform project! This platform allows users to connect with friends, post updates, share photos, and more. It provides a seamless experience for users to interact and stay updated with their social circle.
