@@ -1,6 +1,6 @@
-# Social Media Platform
+# Bondly - Social Media Platform
 
-Welcome to my Social Media Platform project! This platform allows users to connect with friends, post updates, share photos, and more. It provides a seamless experience for users to interact and stay updated with their social circle.
+Welcome to Bondly, my Social Media Platform project! This platform allows users to connect with friends, post updates, share photos, and more. It provides a seamless experience for users to interact and stay updated with their social circle.
 Future features in upcoming versions.
 (To do features: post photos, complete dashboard, put request to change username...)
 
